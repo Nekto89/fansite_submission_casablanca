@@ -9,7 +9,9 @@
 
 #include <stdio.h>
 #include <tchar.h>
-
+#include <map>
+#include <string>
+#include <thread>
 
 
 // TODO: reference additional headers your program requires here

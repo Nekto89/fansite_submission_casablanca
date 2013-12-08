@@ -2,10 +2,11 @@
 //
 
 #include "stdafx.h"
-
+#include "FansiteKernel.h"
 
 int _tmain(int argc, _TCHAR* argv[])
-{
+  {
+  FansiteKernel(argc, argv);
 	return 0;
-}
+  }
 
