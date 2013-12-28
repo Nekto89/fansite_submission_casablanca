@@ -22,6 +22,9 @@ class Deck
   public:
     Deck(std::string&& i_attacking_deck, std::vector<std::string>&& i_attacking_deck_cards, bool i_is_delayed, bool i_is_ordered, bool i_is_surge, EDeckType i_type, std::string&& i_deck_id);
     void SetAchievementId(unsigned short i_achievement_id);
+    void SetBattlegroundId(unsigned short i_battleground_id);
+    void SetDefendingDeck(std::string&& i_defending_deck);
+    void SetDefendingDeckCards(std::vector<std::string>&& i_defending_deck_cards);
     void SetMissionId(unsigned short i_mission_id);
     void SetQuestId(unsigned short i_quest_id);
     void SetRaidId(unsigned short i_raid_id);

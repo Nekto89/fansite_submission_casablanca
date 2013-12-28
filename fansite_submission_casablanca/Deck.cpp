@@ -17,6 +17,21 @@ void Deck::SetAchievementId(unsigned short i_achievement_id)
   m_achievement_id = i_achievement_id;
   }
 
+void Deck::SetBattlegroundId(unsigned short i_battleground_id)
+  {
+  m_battleground_id = i_battleground_id;
+  }
+
+void Deck::SetDefendingDeck(std::string&& i_defending_deck)
+  {
+  m_defending_deck = std::move(i_defending_deck);
+  }
+
+void Deck::SetDefendingDeckCards(std::vector<std::string>&& i_defending_deck_cards)
+  {
+  m_defending_deck_cards = std::move(i_defending_deck_cards);
+  }
+
 void Deck::SetMissionId(unsigned short i_mission_id)
   {
   m_mission_id = i_mission_id;
